@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Russell Square";
+    src: url('fonts/Russell Square Regular.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Unbounded:wght@500&display=swap');
+
+* {
+    text-align: center;
+    margin: 10px, auto;
+}
+
+body {
+    background-color: #333;
+    background-image: url('bg-image.png');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Russell Square', sans-serif;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#rannums div {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#bm {
+    background-color: #999;
+    background-image: url('https://static.wikia.nocookie.net/flood-escape-2/images/3/34/BlueMoon_Revamp.png/revision/latest?cb=20220308222652');
+    background-blend-mode: multiply;
+    background-position-y: 100%;
+    background-size: cover;
+    color: white;
+    -webkit-text-stroke: 0.5px #105f77;
+}
+
+#ssr {
+    background-color: #999;
+    background-image: url('https://static.wikia.nocookie.net/flood-escape-2/images/d/db/SandsweptRuins2.jpg/revision/latest/scale-to-width-down/1000?cb=20221020094432');
+    background-blend-mode: multiply;
+    background-position-y: 50%;
+    background-size: cover;
+    color: white;
+    -webkit-text-stroke: 0.5px #6d694a;
+}
+
+#avm {
+    background-color: #bbb;
+    background-image: url('https://static.wikia.nocookie.net/flood-escape-2/images/d/de/AVMIngame.png/revision/latest/scale-to-width-down/1000?cb=20230304012606');
+    background-blend-mode: multiply;
+    background-position-y: 100%;
+    background-size: cover;
+    color: white;
+    -webkit-text-stroke: 0.5px #412403;
+}
+
+div p {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+strong.bmtxt {
+    color: #2099be;
+}
+
+strong.ssrtxt {
+    color: #af7324;
+}
+
+strong.avmtxt {
+    color: #aa9974;
+}
